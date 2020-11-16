@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EventHelper</string>
+    <string name="twoje_wydarzenie_to">Twoje wydarzenie to...</string>
+    <string name="wesele">WESELE</string>
+    <string name="i_komunia">I KOMUNIA</string>
+    <string name="chrzest">CHRZEST</string>
+    <string name="urodziny">URODZINY</string>
+    <string name="spotkanie">SPOTKANIE</string>
+    <string name="todo">TODO</string>
+    <string name="ustal_szczeg_y">Ustal szczegóły</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="wybierz_czas">Wybierz czas</string>
+    <string name="wybierz_miejsce">Wybierz miejsce</string>
+    <string name="zapisz">ZAPISZ</string>
+    <string-array name="townlist">
+        <item> Warszawa </item>
+        <item> Zamosc </item>
+        <item> Wroclaw </item>
+        <item> Konin </item >
+
+    </string-array>
+
+</resources>
