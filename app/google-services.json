@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "149919324686",
+    "firebase_url": "https://eventhelper-90fbf.firebaseio.com",
+    "project_id": "eventhelper-90fbf",
+    "storage_bucket": "eventhelper-90fbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149919324686:android:addb6a656a42f482e4fa5f",
+        "android_client_info": {
+          "package_name": "com.example.eventhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149919324686-eq9cu2itcsiqjlanrofl44p4uq7cejad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFmEyaZAOFKDSMefAfnY4k8wwcjYYg4Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149919324686-eq9cu2itcsiqjlanrofl44p4uq7cejad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -10,24 +10,24 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="215dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="cursive"
         android:paddingVertical="4dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/helloworld"
+        android:text="@string/powitanie"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="60sp" />
+        android:textSize="60sp"
+        android:textStyle="italic" />
 
     <TextView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
-        android:textColor="@color/blue"
         android:layout_marginTop="44dp"
-        android:textSize="16sp"
-        android:text="@string/nazwa_uzytkownika"
-    />
+        android:text="@string/nowy_user"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
 
     <EditText
         android:layout_width="350dp"
@@ -42,11 +42,32 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/blue"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="4dp"
+        android:textColor="@color/blue"
         android:textSize="16sp"
-        android:text="@string/has_o" />
+        android:text="@string/has_oo" />
+
+
+    <EditText
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="4dp"
+        android:autofillHints=""
+        android:hint="@string/haslo"
+        android:inputType="textPassword"
+        android:paddingHorizontal="2dp"
+        android:paddingVertical="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/confirm_haslo"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
 
 
     <EditText
@@ -61,33 +82,14 @@
         android:paddingVertical="20dp" />
 
     <Button
-        android:id="@+id/buttom_zaloguj"
+        android:id="@+id/buttom_rejestracja"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="20dp"
         android:layout_marginTop="4dp"
-        android:text="@string/zaloguj"
-        android:textColor="@color/white" />
-<TextView
-    android:layout_width="match_parent"
-    android:layout_marginTop="1dp"
-    android:layout_height="wrap_content"
-    android:textColor="@color/blue"
-    android:text="@string/nie_masz_konta_zarejestruj_si"
-    android:layout_marginHorizontal="30dp"
-    android:textAlignment="center">
-
-</TextView>
-
-    <Button
-        android:id="@+id/buttom_zarejestruj_sie"
-        android:layout_width="218dp"
-        android:layout_height="48dp"
-        android:layout_marginHorizontal="100dp"
-        android:layout_marginVertical="7dp"
-        android:layout_marginTop="40dp"
-        android:text="@string/zarejestruj_si"
+        android:paddingBottom="12dp"
+        android:text="@string/zarejestuj"
         android:textColor="@color/white" />
 
 </LinearLayout>

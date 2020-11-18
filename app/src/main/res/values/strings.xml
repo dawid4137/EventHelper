@@ -7,31 +7,27 @@
     <string name="urodziny">URODZINY</string>
     <string name="spotkanie">SPOTKANIE</string>
     <string name="todo">TODO</string>
-    <string name="ustal_szczeg_y">Ustal szczegóły</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
     <string name="wybierz_czas">Wybierz czas</string>
     <string name="wybierz_miejsce">Wybierz miejsce</string>
     <string name="zapisz">ZAPISZ</string>
     <string name="login">login</string>
     <string name="nazwa_uzytkownika">Nazwa użytkownika</string>
-    <string name="haslo">haslo</string>
-    <string name="hasoo">Hasło</string>
+    <string name="haslo">hasło</string>
     <string name="zaloguj">ZALOGUJ</string>
     <string name="nie_masz_konta_zarejestruj_si">Nie masz konta? Zarejestruj się!</string>
     <string name="helloworld">Witaj w EventHelper!</string>
+    <string name="nowy_user">Nazwa użytkownika</string>
+    <string name="has_oo">Hasło</string>
+    <string name="powitanie">To prostrze niz myslisz!</string>
+    <string name="confirm_haslo">Potwierdź hasło</string>
+    <string name="zarejestuj">Zarejestruj się!</string>
+    <string name="has_o">Hasło</string>
+    <string name="zarejestruj_si">zarejestruj się</string>
     <string-array name="townlist">
         <item> Warszawa </item>
         <item> Zamosc </item>
         <item> Wroclaw </item>
-        <item> Konin </item >
+        <item> Konin </item>
 
     </string-array>
 

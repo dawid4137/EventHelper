@@ -7,19 +7,20 @@
     tools:context=".InformationActivity">
 
     <TextView
-            android:id="@+id/myDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="78dp"
-            android:layout_marginTop="48dp"
-            android:layout_marginEnd="12dp"
-            android:layout_marginBottom="12dp"
-            android:backgroundTint="@color/purple_200"
-            android:text="@string/ustal_szczeg_y"
-            android:textColor="#fff"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+        android:id="@+id/myDate"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="cursive"
+        android:text="Ustal szczególy"
+        android:textColor="#fff"
+        android:textSize="45sp"
+        android:textStyle="bold" />
 
 
     <Button
