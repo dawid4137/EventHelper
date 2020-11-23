@@ -126,7 +126,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/chrzest"
+                    android:id="@+id/list"
                     android:layout_width="109dp"
                     android:layout_height="95dp"
                     android:backgroundTint="@color/white"
@@ -162,11 +162,11 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/urodziny"
+                    android:id="@+id/tort"
                     android:layout_width="108dp"
                     android:layout_height="94dp"
                     android:backgroundTint="@color/white"
-                    android:src="@drawable/ic_cake"
+                    android:src="@mipmap/baaloonn"
                      />
 
                 <TextView
@@ -199,7 +199,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/spotkanie"
+                    android:id="@+id/prezent"
                     android:layout_width="99dp"
                     android:layout_height="104dp"
                     android:backgroundTint="@color/white"

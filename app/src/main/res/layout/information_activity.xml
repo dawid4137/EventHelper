@@ -17,7 +17,6 @@
         android:layout_marginBottom="12dp"
         android:backgroundTint="@color/purple_200"
         android:fontFamily="cursive"
-        android:text="Ustal szczególy"
         android:textColor="#fff"
         android:textSize="45sp"
         android:textStyle="bold" />
