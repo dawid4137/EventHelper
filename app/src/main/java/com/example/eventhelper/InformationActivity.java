@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -21,8 +22,10 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
     private Button czas_Buttton;
     private Button miejsce_Buttton;
     private Button zatwierdz_Buttton;
+    private TextView tytul_TextView;
 
 
+    public static final String EVENT_TYPE = "com.example.eventhelper.EVENT_TYPE";
 
     protected void onCreate(@Nullable Bundle savedInstanceState) {
 
@@ -31,6 +34,80 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
         czas_Buttton = (Button) findViewById(R.id.button_czas);
         miejsce_Buttton = (Button) findViewById(R.id.button_miejsce);
         zatwierdz_Buttton = (Button) findViewById(R.id.button_zapisz);
+        tytul_TextView = (TextView) findViewById(R.id.myDate);
+
+
+        Intent intent = getIntent();
+
+        //System.out.println("W iInformationActivity: " + intent.getIntExtra(EVENT_TYPE, 0));
+
+        switch(intent.getIntExtra(EVENT_TYPE, 0)) {
+            case 1: {
+                tytul_TextView.setText("Ustal szczególy " + "wesela");
+                findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(InformationActivity.this,WeseleActivity.class);
+                        startActivity(intent);
+                    }
+
+                });
+                break;
+            }
+            case 2: {
+                tytul_TextView.setText("Ustal szczególy " + "komunii");
+
+                findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(InformationActivity.this,KomuniaActivity.class);
+                        startActivity(intent);
+                    }
+
+                });
+                break;
+            }
+            case 3: {
+                tytul_TextView.setText("Ustal szczególy " + "chrztu");
+                findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(InformationActivity.this, ChrzestActivity.class);
+                        startActivity(intent);
+                    }
+                    });
+                break;
+            }
+            case 4: {
+                tytul_TextView.setText("Ustal szczególy " + "urodzin");
+
+                findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(InformationActivity.this, UrodzinyActivity.class);
+                        startActivity(intent);
+                    }
+                });
+                break;
+            }
+            case 5: {
+                tytul_TextView.setText("Ustal szczególy " + "spotkania");
+                findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(InformationActivity.this, SpotkanieActivity.class);
+                        startActivity(intent);
+                    }
+                });
+                break;
+            }
+            default: {
+                tytul_TextView.setText("cos poszlo nie tak");
+                break;
+            }
+
+        }
+
 
         findViewById(R.id.button_czas).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,12 +116,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
 
             }
         });
-        findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(InformationActivity.this,WeseleActivity.class));
-            }
-        });
+
 
         miejsce_Buttton.setOnClickListener(new View.OnClickListener() {
 

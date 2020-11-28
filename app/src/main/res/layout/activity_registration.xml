@@ -9,8 +9,8 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="198dp"
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
         android:layout_marginTop="8dp"
         android:fontFamily="cursive"
         android:paddingVertical="4dp"
@@ -20,22 +20,44 @@
         android:textSize="60sp"
         android:textStyle="italic" />
 
+
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="33dp"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="44dp"
-        android:text="@string/nowy_user"
+        android:layout_marginTop="3dp"
+        android:text="@string/imie"
         android:textColor="@color/blue"
         android:textSize="16sp" />
 
     <EditText
+        android:id="@+id/imie_space"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="3dp"
         android:autofillHints=""
-        android:hint="@string/login"
+        android:hint="@string/imiew"
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/email"
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/mailmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="0dp"
+        android:autofillHints=""
+        android:hint="@string/email"
         android:inputType="textPersonName"
         tools:ignore="LabelFor" />
 
@@ -44,12 +66,12 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="4dp"
+        android:text="@string/haslo"
         android:textColor="@color/blue"
-        android:textSize="16sp"
-        android:text="@string/has_oo" />
-
+        android:textSize="16sp" />
 
     <EditText
+        android:id="@+id/pass_first"
         android:layout_width="351dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
@@ -69,14 +91,14 @@
         android:textColor="@color/blue"
         android:textSize="16sp" />
 
-
     <EditText
+        android:id="@+id/confirmm_pass"
         android:layout_width="351dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="4dp"
         android:autofillHints=""
-        android:hint="@string/haslo"
+        android:hint="@string/confirm_haslo"
         android:inputType="textPassword"
         android:paddingHorizontal="2dp"
         android:paddingVertical="20dp" />
@@ -84,7 +106,7 @@
     <Button
         android:id="@+id/buttom_rejestracja"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="58dp"
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="20dp"
         android:layout_marginTop="4dp"

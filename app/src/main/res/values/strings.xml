@@ -23,6 +23,32 @@
     <string name="zarejestuj">Zarejestruj się!</string>
     <string name="has_o">Hasło</string>
     <string name="zarejestruj_si">zarejestruj się</string>
+    <string name="czas">NIE MAMY CZASU</string>
+    <string name="twoje_urodziny">Twoje urodziny!</string>
+    <string name="sala_urodzinowa">SALA URODZINOWA</string>
+    <string name="lista_go_ci">LISTA GOŚCI</string>
+    <string name="prezent_urodzinowy">PREZENT URODZINOWY</string>
+    <string name="najwa_niejszy_jest_tort">NAJWAŻNIEJSZY JEST TORT</string>
+    <string name="twoje_wydatki">TWOJE WYDATKI</string>
+    <string name="twoje_wesele">Twoje wesele!</string>
+    <string name="kamerzysta">KAMERZYSTA</string>
+    <string name="fotograf">FOTOGRAF</string>
+    <string name="zespoł">ZESPÓŁ MUZYCZNY</string>
+    <string name="pierscionki">PIERŚCIONKI</string>
+    <string name="sala_weselna">SALA WESELNA</string>
+    <string name="twoje_spotkanie">Twoje spotkanie!</string>
+    <string name="sala">SALA NA SPOTKANIE</string>
+    <string name="twoja_komunia">Twoja I komunia! </string>
+    <string name="sala_komunia">SALA NA KOMUNIĘ</string>
+    <string name="prezent_komunijny">PREZENT KOMUNIJNY</string>
+    <string name="dekorator">DEKORATOR SALI</string>
+    <string name="twoj_chrzest">Twój chrzest!</string>
+    <string name="prezent_na_krzest">PREZENT NA CHRZEST</string>
+    <string name="sala_CHRZEST">SALA NA CHRZEST</string>
+    <string name="WYLOGUJ">WYLOGUJ SIĘ</string>
+    <string name="email">E-mail</string>
+    <string name="imie">Podaj imię</string>
+    <string name="imiew">Imię</string>
     <string-array name="townlist">
         <item> Warszawa </item>
         <item> Zamosc </item>
