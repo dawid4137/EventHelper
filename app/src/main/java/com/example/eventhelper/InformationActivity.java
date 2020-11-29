@@ -68,7 +68,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                 break;
             }
             case 3: {
-                tytul_TextView.setText("Ustal szczególy " + "chrztu");
+                tytul_TextView.setText("Ustal szczególy chrztu");
                 findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

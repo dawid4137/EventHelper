@@ -49,6 +49,7 @@
     <string name="email">E-mail</string>
     <string name="imie">Podaj imię</string>
     <string name="imiew">Imię</string>
+    <string name="emaill">e-mail</string>
     <string-array name="townlist">
         <item> Warszawa </item>
         <item> Zamosc </item>

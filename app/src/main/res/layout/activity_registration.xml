@@ -10,7 +10,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="179dp"
+        android:layout_height="177dp"
         android:layout_marginTop="8dp"
         android:fontFamily="cursive"
         android:paddingVertical="4dp"
@@ -106,12 +106,13 @@
     <Button
         android:id="@+id/buttom_rejestracja"
         android:layout_width="match_parent"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="20dp"
         android:layout_marginTop="4dp"
         android:paddingBottom="12dp"
         android:text="@string/zarejestuj"
         android:textColor="@color/white" />
+
 
 </LinearLayout>

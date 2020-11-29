@@ -241,6 +241,7 @@
                     android:layout_height="104dp"
                     android:backgroundTint="@color/white"
                     android:src="@drawable/ic_baseline_login_24"
+                    android:onClick="logout"
                     android:contentDescription="@string/todo" />
 
                 <TextView
