@@ -109,6 +109,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+
             android:layout_width="wrap_content"
             android:layout_height="115dp"
             android:layout_row="1"
@@ -128,7 +129,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/list"
+                    android:id="@+id/lista_buttonn"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:backgroundTint="@color/white"

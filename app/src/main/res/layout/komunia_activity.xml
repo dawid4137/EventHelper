@@ -168,17 +168,17 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/tort_komunia"
+                    android:id="@+id/fotograff"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:backgroundTint="@color/white"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_cake" />
+                    android:src="@drawable/ic_baseline_camera_alt_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/najwa_niejszy_jest_tort"
+                    android:text="@string/fotograf"
                     android:textAlignment="center"
                     android:textStyle="bold" />
             </LinearLayout>

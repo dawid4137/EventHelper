@@ -12,9 +12,9 @@
     <string name="zapisz">ZAPISZ</string>
     <string name="login">login</string>
     <string name="nazwa_uzytkownika">Nazwa użytkownika</string>
-    <string name="haslo">hasło</string>
+    <string name="haslo">Hasło</string>
     <string name="zaloguj">ZALOGUJ</string>
-    <string name="nie_masz_konta_zarejestruj_si">Nie masz konta? Zarejestruj się!</string>
+    <string name="nie_masz_konta_zarejestruj_si">Nie masz konta? </string>
     <string name="helloworld">Witaj w EventHelper!</string>
     <string name="nowy_user">Nazwa użytkownika</string>
     <string name="has_oo">Hasło</string>
@@ -49,13 +49,36 @@
     <string name="email">E-mail</string>
     <string name="imie">Podaj imię</string>
     <string name="imiew">Imię</string>
-    <string name="emaill">e-mail</string>
     <string-array name="townlist">
         <item> Warszawa </item>
-        <item> Zamosc </item>
-        <item> Wroclaw </item>
-        <item> Konin </item>
+        <item> Gdańsk </item>
+        <item> Lublin </item>
+        <item> Rzeszów </item>
+        <item> Białystok </item>
+        <item> Łódź </item>
+        <item> Katowice </item>
+        <item> Zakopane </item>
+        <item> Szczecin </item>
+        <item> Opole </item>
+        <item> Kraków </item>
+        <item> Zamość </item>
+        <item> Wrocław </item>
+        <item> Poznań </item>
 
     </string-array>
+    <string name="title_activity_list_guest_">ListGuest_Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="lista_go">Twoja lista gosci!</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="ok">OK</string>
+    <string name="imi">Imię</string>
+    <string name="dodaj_goscia">Dodaj goscia!</string>
 
 </resources>

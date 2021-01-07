@@ -22,7 +22,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
     private Button czas_Buttton;
     private Button miejsce_Buttton;
     private Button zatwierdz_Buttton;
-    private TextView tytul_TextView;
+    private TextView naglowek_zdarzenie_view;
 
 
     public static final String EVENT_TYPE = "com.example.eventhelper.EVENT_TYPE";
@@ -34,7 +34,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
         czas_Buttton = (Button) findViewById(R.id.button_czas);
         miejsce_Buttton = (Button) findViewById(R.id.button_miejsce);
         zatwierdz_Buttton = (Button) findViewById(R.id.button_zapisz);
-        tytul_TextView = (TextView) findViewById(R.id.myDate);
+        naglowek_zdarzenie_view = (TextView) findViewById(R.id.myDate);
 
 
         Intent intent = getIntent();
@@ -43,7 +43,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
 
         switch(intent.getIntExtra(EVENT_TYPE, 0)) {
             case 1: {
-                tytul_TextView.setText("Ustal szczególy " + "wesela");
+                naglowek_zdarzenie_view.setText("Ustal szczególy " + "wesela");
                 findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -55,7 +55,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                 break;
             }
             case 2: {
-                tytul_TextView.setText("Ustal szczególy " + "komunii");
+                naglowek_zdarzenie_view.setText("Ustal szczególy " + "komunii");
 
                 findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -68,7 +68,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                 break;
             }
             case 3: {
-                tytul_TextView.setText("Ustal szczególy chrztu");
+                naglowek_zdarzenie_view.setText("Ustal szczególy chrztu");
                 findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -79,7 +79,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                 break;
             }
             case 4: {
-                tytul_TextView.setText("Ustal szczególy " + "urodzin");
+                naglowek_zdarzenie_view.setText("Ustal szczególy " + "urodzin");
 
                 findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -91,7 +91,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                 break;
             }
             case 5: {
-                tytul_TextView.setText("Ustal szczególy " + "spotkania");
+                naglowek_zdarzenie_view.setText("Ustal szczególy " + "spotkania");
                 findViewById(R.id.button_zapisz).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -102,10 +102,9 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                 break;
             }
             default: {
-                tytul_TextView.setText("cos poszlo nie tak");
+                naglowek_zdarzenie_view.setText("cos poszlo nie tak");
                 break;
             }
-
         }
 
 
@@ -127,7 +126,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                  View mView = getLayoutInflater().inflate(R.layout.dialog_spinner,null);
                  mBuilder.setTitle("MIASTO");
                  Spinner mSpinner = (Spinner) mView.findViewById(R.id.spinner1);
-                ArrayAdapter <String> adapter = new ArrayAdapter<String>(InformationActivity.this,
+                ArrayAdapter <String> adapter = new ArrayAdapter <String>(InformationActivity.this,
                         android.R.layout.simple_spinner_item,
                         getResources().getStringArray(R.array.townlist));
                 adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -168,6 +167,7 @@ public class InformationActivity extends AppCompatActivity implements DatePicker
                 Calendar.getInstance().get(Calendar.MONTH),
                 Calendar.getInstance().get(Calendar.DAY_OF_MONTH));
         datePickerDailog.show();
+
     }
 
     @Override

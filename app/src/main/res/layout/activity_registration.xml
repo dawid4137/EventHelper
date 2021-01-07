@@ -8,9 +8,10 @@
     android:background="@drawable/background"
     android:orientation="vertical">
 
+
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="177dp"
+        android:layout_height="242dp"
         android:layout_marginTop="8dp"
         android:fontFamily="cursive"
         android:paddingVertical="4dp"
@@ -20,13 +21,13 @@
         android:textSize="60sp"
         android:textStyle="italic" />
 
-
     <TextView
         android:layout_width="350dp"
-        android:layout_height="33dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="3dp"
         android:text="@string/imie"
+        android:layout_gravity="bottom"
         android:textColor="@color/blue"
         android:textSize="16sp" />
 
@@ -43,7 +44,7 @@
 
     <TextView
         android:layout_width="350dp"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="4dp"
         android:text="@string/email"
@@ -72,7 +73,7 @@
 
     <EditText
         android:id="@+id/pass_first"
-        android:layout_width="351dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="4dp"
@@ -83,7 +84,7 @@
         android:paddingVertical="20dp" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="4dp"
@@ -93,7 +94,7 @@
 
     <EditText
         android:id="@+id/confirmm_pass"
-        android:layout_width="351dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="4dp"
@@ -105,7 +106,7 @@
 
     <Button
         android:id="@+id/buttom_rejestracja"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="20dp"

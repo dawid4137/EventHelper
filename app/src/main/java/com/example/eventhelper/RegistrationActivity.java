@@ -57,11 +57,11 @@ public class RegistrationActivity extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
 
-      // if(fAuth.getCurrentUser()!= null)
-     //  {
-     //      startActivity(new Intent(getApplicationContext(), LoginActivity.class));
-     //      finish();
-     //   }
+      //  if(fAuth.getCurrentUser()!= null)
+       //      {
+      //   startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+      //   finish();
+        //     }
         ukoncz_rejestracje.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -87,7 +87,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     password_edittext.setError("Wpisz ponownie hasło");
                     return;
                 }
-                if (pass.length() < 5) {
+                if (pass.length() < 6) {
                     password_edittext.setError("Minimum 5 znakow");
                     return;
                 }
